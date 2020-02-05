@@ -43,13 +43,11 @@ If yes, Add an OCR to Text to convert the image content to text.
 
 ### Step 6
 - Enter Text Anlaytics in the new step.
-- If you don't have a connection, select Create new connection then enter the information to create a new Text Analytics connection. 
+- If you don't have a connection, select Create new connection then enter the information to create a new Text Analytics connection.
 
-...Connection Name: enter the name of the Text Analytics Resource you created in the Azure Portal. In this example, I had created a resource called TAforPowerAutomate. 
-
-...Account Key: Copy the value from Key1 field (see the Pre-requisites section above)
-
-...Site URL: copy the value from Endpoint field 
+   Connection Name: enter the name of the Text Analytics Resource you created in the Azure Portal. In this example, I had created a resource called TAforPowerAutomate.  
+   2Account Key: Copy the value from Key1 field (see the Pre-requisites section above) 
+   Site URL: copy the value from Endpoint field  
 
 Selec Text Analytics' key phrase function. Add en for English (you can choose other languages as well).
 
