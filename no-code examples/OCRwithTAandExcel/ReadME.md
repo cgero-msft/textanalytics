@@ -1,0 +1,7 @@
+# Extract key phrases and write to Excel when an image is added to SharePoint
+This example shows how to use Power Automate to extract text and write to an Excel file. The workflow is triggered when a file is added to SharePoint folder.
+
+If the file is an image, then Azure OCR is called to extract the text. Then the text is passed to Text Analytics to extract the key phrases.
+
+The output is then written to an Excel file.
+
