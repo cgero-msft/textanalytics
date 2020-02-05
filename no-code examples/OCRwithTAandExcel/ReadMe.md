@@ -5,3 +5,6 @@ If the file is a jpeg image, then Azure OCR is called to extract the text. Then 
 
 The output is then written to an Excel file. The sample file is in this folder called [Text from OCR.xlsx](Text%20from%20OCR.xlsx).
 
+Here is the example's workflow:
+![alt text](images/steps.JPG "example's steps")
+
