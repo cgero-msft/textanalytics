@@ -18,7 +18,7 @@ Here is the example's workflow:
 - Select Text Analytics in step 1. Then create the resource.
 - Get the key and endpoint 
 - Skip the Configure the environment and Clean up sections
-3. Computer Vision resournce (similar to 2 above)
+3. Computer Vision resource (similar to 2 above)
 4. Similar to step 2, create a Computer Vision resource
 5. Power Automate - if you haven't already, sign up for free [here](https://docs.microsoft.com/en-us/power-automate/sign-up-sign-in)
 6. OneDrive for Business (thru Office 365)[more info here](https://onedrive.live.com/about/en-US/business/)
