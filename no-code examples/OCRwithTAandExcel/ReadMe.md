@@ -19,9 +19,8 @@ Here is the example's workflow:
 - Get the key and endpoint 
 - Skip the Configure the environment and Clean up sections
 3. Computer Vision resource (similar to 2 above)
-4. Similar to step 2, create a Computer Vision resource
-5. Power Automate - if you haven't already, sign up for free [here](https://docs.microsoft.com/en-us/power-automate/sign-up-sign-in)
-6. OneDrive for Business (thru Office 365)[more info here](https://onedrive.live.com/about/en-US/business/)
+4. Power Automate - if you haven't already, sign up for free [here](https://docs.microsoft.com/en-us/power-automate/sign-up-sign-in)
+5. OneDrive for Business (thru Office 365)[more info here](https://onedrive.live.com/about/en-US/business/)
 - Upload the example Excel file (found in this folder) to your OneDrive for Business folder
 
 ## Create the flow in Power Automate
