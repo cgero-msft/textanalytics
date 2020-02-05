@@ -18,8 +18,10 @@ Here is the example's workflow:
 - Select Text Analytics in step 1. Then create the resource.
 - Get the key and endpoint 
 - Skip the Configure the environment and Clean up sections
-3. Power Automate - if you haven't already, sign up for free [here](https://docs.microsoft.com/en-us/power-automate/sign-up-sign-in)
-4. OneDrive for Business (thru Office 365)[more info here](https://onedrive.live.com/about/en-US/business/)
+3. Computer Vision resournce (similar to 2 above)
+4. Similar to step 2, create a Computer Vision resource
+5. Power Automate - if you haven't already, sign up for free [here](https://docs.microsoft.com/en-us/power-automate/sign-up-sign-in)
+6. OneDrive for Business (thru Office 365)[more info here](https://onedrive.live.com/about/en-US/business/)
 - Upload the example Excel file (found in this folder) to your OneDrive for Business folder
 
 ## Create the flow in Power Automate
@@ -39,11 +41,17 @@ Initialize a second variable to hold the output of Text Analytics.
 Add a condition for checking to make sure the file is an image.
 
 ### Step 5
-If yes, Add an OCR to Text to convert the image content to text.
+If yes, add an OCR to Text step to convert the image to text.
+
+- If you don't have a connection, select Add new connection then enter the information to create a new Computer Vision connection.
+
+   Connection Name: enter the name of the Computer Vision resource you created in the Azure Portal.  
+   Account Key: Copy the value from Key1 field (see the Pre-requisites section above) 
+   Site URL: copy the value from Endpoint field 
 
 ### Step 6
 - Enter Text Anlaytics in the new step.
-- If you don't have a connection, select Create new connection then enter the information to create a new Text Analytics connection.
+- If you don't have a connection, select Add new connection then enter the information to create a new Text Analytics connection.
 
    Connection Name: enter the name of the Text Analytics Resource you created in the Azure Portal. In this example, I had created a resource called TAforPowerAutomate.  
    Account Key: Copy the value from Key1 field (see the Pre-requisites section above) 
