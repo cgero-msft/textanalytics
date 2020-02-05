@@ -46,13 +46,21 @@ If yes, Add an OCR to Text to convert the image content to text.
 - If you don't have a connection, select Create new connection then enter the information to create a new Text Analytics connection.
 
    Connection Name: enter the name of the Text Analytics Resource you created in the Azure Portal. In this example, I had created a resource called TAforPowerAutomate.  
-   2Account Key: Copy the value from Key1 field (see the Pre-requisites section above) 
+   Account Key: Copy the value from Key1 field (see the Pre-requisites section above) 
    Site URL: copy the value from Endpoint field  
 
 Selec Text Analytics' key phrase function. Add en for English (you can choose other languages as well).
 
-### Step 3
-Initialize a second variable to hold the output of Text Analytics.
+### Step 7
+Append to string will store the results of the key phrase call.
 
-### Step 4
-Add a condition for checking to make sure the file is an image.
+### Step 8
+This requires you to have uploaded the sample Excel file to OneDrive for Business. Note that it has a table which this flow will write into.
+
+### Step 9
+There is no input needed for the If no condition.
+
+## The result
+After you start the flow, drop note.jpg in the SharePoint folder you selected in the first step. The result would like this:
+
+![alt text](images/excel.JPG "complete flow")
