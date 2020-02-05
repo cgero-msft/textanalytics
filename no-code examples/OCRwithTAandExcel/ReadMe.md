@@ -61,6 +61,6 @@ This requires you to have uploaded the sample Excel file to OneDrive for Busines
 There is no input needed for the If no condition.
 
 ## The result
-After you start the flow, drop note.jpg in the SharePoint folder you selected in the first step. The result would like this:
+After you start the flow, drop [note.jpg](images/note.jpg) in the SharePoint folder you selected in the first step. The result would like this:
 
 ![alt text](images/excel.JPG "complete flow")
