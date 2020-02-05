@@ -22,5 +22,7 @@ Here is the example's workflow:
 4. OneDrive for Business (thru Office 365)[more info here](https://onedrive.live.com/about/en-US/business/)
 - Upload the example Excel file (found in this folder) to your OneDrive for Business folder
 
-## Create the flow
+## Create the flow in Power Automate
+The entire flow is shown below. 
+![alt text](images/OCRwithTAtoExcelSteps.png "complete flow")
 
