@@ -53,7 +53,7 @@ Before creating the Power Automate workflow, we need to create a custom connecto
 
 The below image shows the completed workflow. The steps are described in more detail below.
 
-![alt text](images/full_flow.png "Speech API info")
+![alt text](images/full_flow2.png "Speech API info")
 
 ### Step 1
 
