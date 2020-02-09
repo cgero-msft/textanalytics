@@ -37,7 +37,7 @@ Before creating the Power Automate workflow, we need to create a custom connecto
     a. I used Postman (there are couple other options). And plugged in the Speech API key and endpoint URL. Make sure the region matches your service. (see the Post URL in the first image)
     
     b. For getting the Key and endpoint URL, go to the Azure Portal.  
-![alt text](images/postman1.jpg "Speech API info")
+![alt text](images/postman1.JPG "Speech API info")
 
     c. Get the JSON input for the Speech API call [here](https://docs.microsoft.com/en-us/azure/cognitive-services/speech-service/batch-transcription#configuration).
     
@@ -45,7 +45,7 @@ Before creating the Power Automate workflow, we need to create a custom connecto
     d. Use Azure Storage Explorer to get the recording URL parameter.
     
     d. Use Azure Storage Explorer to get the Container SAS url for writing the output of the Speech API call.
-![alt text](images/postman_json.jpg "Speech API json payload")
+![alt text](images/postman_json.JPG "Speech API json payload")
 
 2. [Import the Postman collection](https://docs.microsoft.com/en-us/connectors/custom-connectors/define-postman-collection#import-the-postman-collection-for-power-automate-and-power-apps)
 
