@@ -1,18 +1,18 @@
 # Auto-fill forms with data from customer calls using Speech and Text Analytics APIs - Part II
 
-In part II of this tutorial, we will use the data from the call transcript to fill in a claim form. [Link to Part I]() 
+In part II of this tutorial, we will use the data from the call transcript to fill in a claim form. [(Link to Part I)](Converting%20audio%20to%20text%20-%20Part%20I.md) 
 
 We will start with a blank form template in Word. Then populate the fields from the call transcript.
 
-![alt text](images/empty_form.jpg "Empty claim form")
+![alt text](images/empty_form.JPG "Empty claim form")
 
 ## Pre-requisites
 
-- Upload the included sample claim form template to OneDrive for Business. To create your own claim template, [see](https://flow.microsoft.com/en-us/blog/generate-word-documents-in-your-flows/).
+- Upload the included sample claim form template to OneDrive for Business. To create your own claim template, [see here](https://flow.microsoft.com/en-us/blog/generate-word-documents-in-your-flows/).
 
 ## Create the workflow
 
-The below image shows the completed workflow. The steps are described in more detail below.
+The below image shows the completed workflow. The steps are described in more detail below (click for a larger view).
 
 ![alt text](images/fill_form_flow.png "Speech API info")
 
