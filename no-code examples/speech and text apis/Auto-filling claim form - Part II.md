@@ -6,9 +6,11 @@ We will start with a blank form template in Word. Then populate the fields from 
 
 ![alt text](images/empty_form.JPG "Empty claim form")
 
-## Pre-requisites
+## Setup
 
 - Upload the included sample claim form template to OneDrive for Business. To create your own claim template, [see here](https://flow.microsoft.com/en-us/blog/generate-word-documents-in-your-flows/).
+- In Azure Storage create two containers: audio and output
+- Upload Recording1.mp3 to audio.
 
 ## Create the workflow
 
