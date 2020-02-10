@@ -8,7 +8,7 @@ We will use Power Automate to complete this tutorial. So no coding experience is
 
 We will use the Speech Batch API to convert audio to text.  
 
-In part II, we use the text to fill in a claim form.
+In [part II](Auto-filling%20claim%20form%20-%20Part%20II.md), we use the text to fill in a claim form.
 
 ![alt text](images/parts.png "Speech API json payload")
 
