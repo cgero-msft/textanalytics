@@ -84,4 +84,4 @@ Use Create File to save the updated template as a new doc.
 
 Running the flow will create an updated Word document with the claim info filled in.
 
-![alt text](images/filled_form.JPG "Speech API info")
+![alt text](images/filled_form.JPG "Filled form")
