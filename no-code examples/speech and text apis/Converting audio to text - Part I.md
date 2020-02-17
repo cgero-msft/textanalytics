@@ -85,4 +85,4 @@ Use the Speech API custom connector to convert audio to text.
 
 ## Next steps
 
-In part II of this tutorial, we will use Text Analytics to extract information from the text transcript file created here.
+In [part II](Auto-filling%20claim%20form%20-%20Part%20II.md) of this tutorial, we will use Text Analytics to extract information from the text transcript file created here.
